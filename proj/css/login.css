@@ -1,0 +1,57 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://s3-us-west-2.amazonaws.com/myra-jobs-uploads/images/DOWNSIZE%20OWWA%20ARTICLE%20IMAGE%205.jpg');
+    background-size: cover;
+}
+
+#innerPage {
+  width:100%;
+  max-width:840px;
+  margin : 0 auto;
+  border-radius: 12px;
+  background: white;
+}
+.form-control {
+  background: none;
+  border:none;
+  border-bottom : 1px solid #45bdd9;
+  color: black;
+}
+#imgBgn {
+  background : url('https://s3-us-west-2.amazonaws.com/myra-jobs-uploads/images/DOWNSIZE%20OWWA%20ARTICLE%20IMAGE%204.jpg') no-repeat;
+  background-size: cover;
+  background-position:center;
+  min-height:75vh;
+  width:100%;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo-container {
+  width: 400px;
+  height: 100px;
+  background-image: url(../assets/img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 56, 167, 0.5)
+;
+  z-index: -1;
+}
