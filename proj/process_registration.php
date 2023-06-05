@@ -12,7 +12,10 @@ if (!$conn) {
 $firstname = $_POST['firstname'];
 $middlename = $_POST['middlename'];
 $lastname = $_POST['lastname'];
-
+$occupation = $_POST['occupation'];
+$gender = $row['gender'];
+$nationality = $row['nationality'];
+$company = $row['company'];
 //contact details
 $number = $_POST['number'];
 $email = $_POST['email'];

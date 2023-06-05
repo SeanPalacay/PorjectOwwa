@@ -8,7 +8,7 @@
     <!----===== Iconscout CSS ===== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <title>Responsive Regisration Form </title>
+    <title>Regisration Form </title>
 
 
 </head>
